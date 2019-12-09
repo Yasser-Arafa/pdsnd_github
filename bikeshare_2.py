@@ -24,7 +24,7 @@ def get_filters():
         "City is name is invalid! Please input another name: ").lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
-    month = input("Great! now provide us a month name or just say \'all\' to apply no month filter. \n(e.g. all, january, february, march, april, may, june)\n: ").lower()
+    month = input("Great! now provide us a month name or just say \'all\' to apply no month filter. \n(e.g. all, january, february, ..., june)\n: ").lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = input("Ok last thing. Could you please type one of the week day you want to analyze? or you can type \'all\' again to apply no day filter. \n(e.g. all, monday, sunday, ...etc) \n: ").lower()
